@@ -1,0 +1,18 @@
+#include <vector>
+#include <algorithm>
+
+using namespace std;
+
+class Solution {
+public:
+    vector<int> sortArray(vector<int>& nums) {
+        sort(nums.begin(), nums.end()); // Sorts the vector in place
+        return nums;
+    }
+};
+
+// Time Complexity: O(NlogN)
+// Space Complexity: O(N)
+
+// Runtime1: 90ms, beats 80.19%
+// Memory1: 70.49MB, beats 75.35%
