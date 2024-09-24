@@ -1,0 +1,13 @@
+class Solution:
+    def reconstructQueue(self, people: List[List[int]]) -> List[List[int]]:
+        people.sort(key = lambda x: (-x[0], x[1]))
+        queue = []
+        for person in people: 
+            queue.insert(person[1], person)
+        return queue
+
+# Time Complexity:
+# Space Complexity:
+
+# Runtime1: 76ms, beats 93.18%
+# Memory1: 17.19MB, beats 52.56%
