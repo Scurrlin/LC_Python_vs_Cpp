@@ -8,17 +8,17 @@ public:
         int l = 0, r = nums.size() - 1;
         
         while (l <= r) {
-            int m = l + (r - l) / 2; // Calculate the mid-point to avoid overflow
+            int m = l + (r - l) / 2;
             
             if (nums[m] > target) {
                 r = m - 1;
             } else if (nums[m] < target) {
                 l = m + 1;
             } else {
-                return m; // Target found at index m
+                return m;
             }
         }
         
-        return -1; // Target not found
+        return -1;
     }
 };

@@ -2,7 +2,6 @@
 
 using namespace std;
 
-// Definition for a binary tree node.
 struct TreeNode {
     int val;
     TreeNode *left;
@@ -19,26 +18,22 @@ public:
         TreeNode* curr = root;
 
         while (!stk.empty() || curr) {
-            // Reach the leftmost node of the current node
             while (curr) {
                 stk.push(curr);
                 curr = curr->left;
             }
             
-            // Process the top node from the stack
             curr = stk.top();
             stk.pop();
             
-            // Decrement k, and if k reaches 0, we've found our answer
             k--;
             if (k == 0) {
                 return curr->val;
             }
             
-            // Move to the right subtree
             curr = curr->right;
         }
         
-        return -1; // This line is just a safeguard; logically it should never be reached
+        return -1;
     }
 };

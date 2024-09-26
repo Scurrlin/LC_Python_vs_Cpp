@@ -1,4 +1,5 @@
 #include <vector>
+
 using namespace std;
 
 class Solution {
@@ -8,7 +9,6 @@ public:
         int r = s.size() - 1;
 
         while (l < r) {
-            // Swap the elements at positions l and r
             swap(s[l], s[r]);
             l++;
             r--;

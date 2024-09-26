@@ -6,7 +6,7 @@ using namespace std;
 class Solution {
 public:
     vector<int> sortArray(vector<int>& nums) {
-        sort(nums.begin(), nums.end()); // Sorts the vector in place
+        sort(nums.begin(), nums.end());
         return nums;
     }
 };

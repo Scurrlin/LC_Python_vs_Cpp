@@ -6,15 +6,15 @@ public:
         int low = 1, high = n, mid;
         
         while (true) {
-            mid = low + (high - low) / 2; // Calculate the mid-point to avoid overflow
+            mid = low + (high - low) / 2;
             int res = guess(mid);
             
             if (res == 0) {
-                return mid; // The guessed number is correct
+                return mid;
             } else if (res == -1) {
-                high = mid - 1; // The target number is smaller
+                high = mid - 1;
             } else {
-                low = mid + 1; // The target number is larger
+                low = mid + 1;
             }
         }
     }

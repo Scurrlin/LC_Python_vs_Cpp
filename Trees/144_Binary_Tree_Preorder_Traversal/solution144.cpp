@@ -3,7 +3,6 @@
 
 using namespace std;
 
-// Definition for a binary tree node.
 struct TreeNode {
     int val;
     TreeNode *left;
@@ -22,9 +21,9 @@ public:
 
         while (cur || !stack.empty()) {
             if (cur) {
-                res.push_back(cur->val); // Visit the current node
-                stack.push(cur->right);  // Push the right child onto the stack
-                cur = cur->left;         // Move to the left child
+                res.push_back(cur->val);
+                stack.push(cur->right);
+                cur = cur->left;
             } else {
                 cur = stack.top();
                 stack.pop();

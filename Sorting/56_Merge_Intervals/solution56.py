@@ -7,7 +7,6 @@ class Solution:
             lastEnd = output[-1][1]
 
             if start <= lastEnd:
-                # merge
                 output[-1][1] = max(lastEnd, end)
             else:
                 output.append([start, end])

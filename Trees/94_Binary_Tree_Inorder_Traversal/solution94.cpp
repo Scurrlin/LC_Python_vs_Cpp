@@ -1,7 +1,6 @@
 #include <vector>
 using namespace std;
 
-// Definition for a binary tree node.
 struct TreeNode {
     int val;
     TreeNode *left;
@@ -25,9 +24,9 @@ private:
             return;
         }
         
-        inorder(root->left, output);   // Traverse the left subtree
-        output.push_back(root->val);   // Visit the root
-        inorder(root->right, output);  // Traverse the right subtree
+        inorder(root->left, output);
+        output.push_back(root->val);
+        inorder(root->right, output);
     }
 };
 

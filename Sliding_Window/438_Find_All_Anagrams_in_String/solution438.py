@@ -15,7 +15,6 @@ class Solution:
                 if sMap == pMap:
                     res.append(startIndex)
                 
-                # If current character is in sMap, remove it and re-update the map.
                 if s[startIndex] in sMap:
                     sMap[s[startIndex]] -= 1
                     if sMap[s[startIndex]] == 0:

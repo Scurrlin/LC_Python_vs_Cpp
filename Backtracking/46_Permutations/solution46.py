@@ -2,9 +2,8 @@ class Solution:
     def permute(self, nums: List[int]) -> List[List[int]]:
         res = []
 
-        # base case
         if len(nums) == 1:
-            return [nums[:]]  # nums[:] is a deep copy
+            return [nums[:]]
 
         for i in range(len(nums)):
             n = nums.pop(0)

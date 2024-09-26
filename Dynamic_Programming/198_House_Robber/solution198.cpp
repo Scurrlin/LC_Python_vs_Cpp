@@ -1,5 +1,5 @@
 #include <vector>
-#include <algorithm> // For the max function
+#include <algorithm>
 
 using namespace std;
 
