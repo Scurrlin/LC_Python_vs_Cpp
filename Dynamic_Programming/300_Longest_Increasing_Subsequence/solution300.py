@@ -7,3 +7,15 @@ class Solution:
                 if nums[i] < nums[j]:
                     LIS[i] = max(LIS[i], 1 + LIS[j])
         return max(LIS)
+
+# Time Complexity:
+# Space Complexity:
+
+# Runtime1: 1869ms, beats 25.43%
+# Memory1: 16.81MB, beats 70.38%
+
+# Runtime2: 1867ms, beats 25.75%
+# Memory2: 16.86MB, beats 70.38%
+
+# Runtime3: 1886ms, beats 22.78%
+# Memory3: 16.75MB, beats 92.22%

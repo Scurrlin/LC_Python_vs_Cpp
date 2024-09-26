@@ -8,3 +8,15 @@ class Solution:
             count += (1 if n == res else -1)
             
         return res
+
+# Time Complexity:
+# Space Complexity:
+
+# Runtime1: 169ms, beats 64.87%
+# Memory1: 18.01MB, beats 24.65%
+
+# Runtime2: 158ms, beats 96.30%
+# Memory2: 18.09MB, beats 24.65%
+
+# Runtime3: 170ms, beats 60.33%
+# Memory3: 18.07MB, beats 24.65%

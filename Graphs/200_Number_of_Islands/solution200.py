@@ -20,3 +20,15 @@ class Solution:
                     dfs(i, j)
         
         return num_islands
+
+# Time Complexity:
+# Space Complexity:
+
+# Runtime1: 226ms, beats 88.66%
+# Memory1: 18.98MB, beats 62.39%
+
+# Runtime2: 227ms, beats 87.25%
+# Memory2: 19.00MB, beats 62.39%
+
+# Runtime3: 240ms, beats 64.83%
+# Memory3: 18.80MB, beats 96.14%

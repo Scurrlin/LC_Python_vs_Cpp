@@ -6,22 +6,36 @@ using namespace std;
 class Solution {
 public:
     int findMinArrowShots(vector<vector<int>>& points) {
-        sort(points.begin(), points.end());
+        if (points.empty()) {
+            return 0;
+        }
 
-        int res = points.size();
-        vector<int> prev = points[0];
-        
-        for (int i = 1; i < points.size(); ++i) {
-            vector<int>& curr = points[i];
+        sort(points.begin(), points.end(), [](const vector<int>& a, const vector<int>& b) {
+            return a[1] < b[1];
+        });
 
-            if (curr[0] <= prev[1]) {
-                res--;
-                prev[1] = min(curr[1], prev[1]);
-            } else {
-                prev = curr;
+        int arrows = 1;
+        int end = points[0][1];
+
+        for (const auto& point : points) {
+            if (point[0] > end) {
+                arrows++;
+                end = point[1];
             }
         }
-        
-        return res;
+
+        return arrows;
     }
 };
+
+// Time Complexity:
+// Space Complexity:
+
+// Runtime1:
+// Memory1:
+
+// Runtime2:
+// Memory2:
+
+// Runtime3:
+// Memory3:

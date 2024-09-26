@@ -25,3 +25,15 @@ class Solution:
                         j += 1
         
         return res
+
+# Time Complexity:
+# Space Complexity:
+
+# Runtime1: 674ms, beats 70.08%
+# Memory1: 20.68MB, beats 73.19%
+
+# Runtime2: 691ms, beats 62.27%
+# Memory2: 20.81MB, beats 19.44%
+
+# Runtime3: 689ms, beats 63.17%
+# Memory3: 20.73MB, beats 33.88%

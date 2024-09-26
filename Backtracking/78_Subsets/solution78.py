@@ -20,3 +20,9 @@ class Solution:
 
 # Runtime1: 32ms, beats 84.44%
 # Memory1: 16.84MB, beats 25.77%
+
+# Runtime2: 33ms, beats 80.25%
+# Memory2: 16.83MB, beats 26.83%
+
+# Runtime3: 33ms, beats 80.25%
+# Memory3: 16.74MB, beats 26.83%

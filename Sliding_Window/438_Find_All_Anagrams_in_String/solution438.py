@@ -22,3 +22,15 @@ class Solution:
                 startIndex += 1
         
         return res
+
+# Time Complexity:
+# Space Complexity:
+
+# Runtime1: 89ms, beats 62.35%
+# Memory1: 17.57MB, beats 96.49%
+
+# Runtime2: 98ms, beats 52%
+# Memory2: 17.62MB, beats 83.55%
+
+# Runtime3: 77ms, beats 83.43%
+# Memory3: 17.50MB, beats 99.60%

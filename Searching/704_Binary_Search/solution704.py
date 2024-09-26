@@ -11,3 +11,15 @@ class Solution:
             else:
                 return m
         return -1
+
+# Time Complexity:
+# Space Complexity:
+
+# Runtime1: 189ms, beats 67.96%
+# Memory1: 18.10MB, beats 71.59%
+
+# Runtime2: 188ms, beats 73.18%
+# Memory2: 18.09MB, beats 71.59%
+
+# Runtime3: 193ms, beats 43.76%
+# Memory3: 18.07MB, beats 71.59%

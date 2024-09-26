@@ -14,3 +14,15 @@ class Solution:
                 right -= 1
         
         return max_area
+
+# Time Complexity:
+# Space Complexity:
+
+# Runtime1: 526ms, beats 51.90%
+# Memory1: 29.87MB, beats 25.13%
+
+# Runtime2: 532ms, beats 35.23%
+# Memory2: 29.85MB, beats 25.13%
+
+# Runtime3: 531ms, beats 37.75%
+# Memory3: 29.88MB, beats 25.13%

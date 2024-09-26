@@ -32,3 +32,15 @@ class Solution:
                     rotten.append((xx, yy))
 
         return minutes_passed if fresh_cnt == 0 else -1
+
+# Time Complexity:
+# Space Complexity:
+
+# Runtime1: 48ms, beats 69.18%
+# Memory1: 16.58MB, beats 60.88%
+
+# Runtime2: 42ms, beats 93.37%
+# Memory2: 16.59MB, beats 60.88%
+
+# Runtime3: 45ms, beats 84.11%
+# Memory3: 16.58MB, beats 60.88%

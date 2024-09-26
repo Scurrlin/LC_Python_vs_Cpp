@@ -51,3 +51,15 @@ public:
         return fresh_cnt == 0 ? minutes_passed : -1;
     }
 };
+
+// Time Complexity:
+// Space Complexity:
+
+// Runtime1:
+// Memory1:
+
+// Runtime2:
+// Memory2:
+
+// Runtime3:
+// Memory3:

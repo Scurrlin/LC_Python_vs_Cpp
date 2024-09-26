@@ -16,3 +16,9 @@ public:
 
 // Runtime1: 90ms, beats 80.19%
 // Memory1: 70.49MB, beats 75.35%
+
+// Runtime2:
+// Memory2:
+
+// Runtime3:
+// Memory3:

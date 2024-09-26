@@ -10,5 +10,11 @@ class Solution:
 # Time Complexity:
 # Space Complexity:
 
-# Runtime1: 354ms, beats 61.92%
-# Memory1: 17.86MB, beats 36.18%
+# Runtime1: 352ms, beats 65.81%
+# Memory1: 17.80MB, beats 68.74%
+
+# Runtime2: 348ms, beats 74.32%
+# Memory2: 17.80MB, beats 68.74%
+
+# Runtime3: 343ms, beats 85.72%
+# Memory3: 17.79MB, beats 68.74%

@@ -19,3 +19,15 @@ public:
         return *max_element(LIS.begin(), LIS.end());
     }
 };
+
+// Time Complexity:
+// Space Complexity:
+
+// Runtime1:
+// Memory1:
+
+// Runtime2:
+// Memory2:
+
+// Runtime3:
+// Memory3:

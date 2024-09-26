@@ -15,5 +15,11 @@ class Solution:
 # Time Complexity: O(NlogN)
 # Space Complexity: 0(N)
 
-# Runtime1: 118ms, beats 82.41%
-# Memory1: 21.23MB, beats 14.47%
+# Runtime1: 118ms, beats 82.45%
+# Memory1: 21.14MB, beats 27.84%
+
+# Runtime2: 118ms, beats 82.45%
+# Memory2: 21.24MB, beats 15.03%
+
+# Runtime3: 120ms, beats 74.19%
+# Memory3: 21.18MB, beats 27.84%

@@ -40,3 +40,9 @@ public:
 
 // Runtime1: 0ms, beats 100%
 // Runtime2: 13.98MB, beats 50.38%
+
+// Runtime2:
+// Memory2:
+
+// Runtime3:
+// Memory3:

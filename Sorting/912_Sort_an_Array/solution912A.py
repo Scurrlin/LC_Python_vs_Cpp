@@ -36,3 +36,9 @@ class Solution:
 
 # Runtime1: 1188ms, beats 26.30%
 # Memory1: 36.40MB, beats 5.57%
+
+# Runtime2: 1224ms, beats 23.16%
+# Memory2: 36.87MB, beats 5.49%
+
+# Runtime3: 1175ms, beats 34.87%
+# Memory3: 36.44MB, beats 7.33%
