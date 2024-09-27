@@ -20,11 +20,11 @@ public:
 // Time Complexity:
 // Space Complexity:
 
-// Runtime1:
-// Memory1:
+// Runtime1: 36ms, beats 88.62%
+// Memory1: 51.15MB, beats 42.11%
 
-// Runtime2:
-// Memory2:
+// Runtime2: 34ms, beats 93.24%
+// Memory2: 51.04MB, beats 80.38%
 
-// Runtime3:
-// Memory3:
+// Runtime3: 38ms, beats 83.90%
+// Memory3: 51.11MB, beats 42.11%

@@ -32,11 +32,11 @@ private:
 // Time Complexity:
 // Space Complexity:
 
-// Runtime1:
-// Memory1:
+// Runtime1: 4ms, beats 84.72%
+// Memory1: 16.85MB, beats 86.60%
 
-// Runtime2:
-// Memory2:
+// Runtime2: 0ms, beats 100%
+// Memory2: 16.72MB, beats 94.63%
 
-// Runtime3:
-// Memory3:
+// Runtime3: 0ms, beats 100%
+// Memory3: 16.78MB, beats 94.63%

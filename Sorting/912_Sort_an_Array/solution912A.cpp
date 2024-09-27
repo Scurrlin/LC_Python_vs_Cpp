@@ -50,11 +50,11 @@ private:
 // Time Complexity: O(NlogN)
 // Space Complexity: O(N)
 
-// Runtime1: 352ms, beats 37.80%
-// Memory1: 178.24MB, beats 30.42%
+// Runtime1: 372ms, beats 40.30%
+// Memory1: 178.20MB, beats 31.51%
 
-// Runtime2:
-// Memory2:
+// Runtime2: 394ms, beats 37.65%
+// Memory2: 178.21MB, beats 30.70%
 
-// Runtime3:
-// Memory3:
+// Runtime3: 359ms, beats 41.30%
+// Memory3: 178.50MB, beats 25.85%
