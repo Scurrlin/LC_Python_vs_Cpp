@@ -33,9 +33,6 @@ class Solution:
             l += 1
         return matches == 26
 
-# Time Complexity:
-# Space Complexity:
-
 # Runtime1: 54ms, beats 77.51%
 # Memory1: 16.72MB, beats 19.17%
 

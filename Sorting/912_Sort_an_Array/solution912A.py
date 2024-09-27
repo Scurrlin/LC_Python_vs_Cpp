@@ -31,9 +31,6 @@ class Solution:
         
         return mergeSort(nums, 0, len(nums) - 1)
 
-# Time Complexity: O(NlogN)
-# Space Complexity: O(N)
-
 # Runtime1: 1188ms, beats 26.30%
 # Memory1: 36.40MB, beats 5.57%
 

@@ -20,9 +20,6 @@ class Solution:
         flood_fill(sr, sc)
         return image
 
-# Time Complexity:
-# Space Complexity:
-
 # Runtime1: 64ms, beats 74.66%
 # Memory1: 17MB, beats 5.87%
 

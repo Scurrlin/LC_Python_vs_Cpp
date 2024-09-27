@@ -15,9 +15,6 @@ class Solution:
 
         return arrows
 
-# Time Complexity:
-# Space Complexity:
-
 # Runtime1: 1015ms, beats 83.31%
 # Memory1: 62.88MB, beats 21.51%
 

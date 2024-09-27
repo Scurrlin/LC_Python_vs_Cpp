@@ -21,9 +21,6 @@ class Solution:
         
         return num_islands
 
-# Time Complexity:
-# Space Complexity:
-
 # Runtime1: 226ms, beats 88.66%
 # Memory1: 18.98MB, beats 62.39%
 

@@ -8,9 +8,6 @@ class Solution:
             rob2 = temp
         return rob2
 
-# Time Complexity:
-# Space Complexity:
-
 # Runtime1: 30ms, beats 89.63%
 # Memory1: 16.44MB, beats 70.50%
 

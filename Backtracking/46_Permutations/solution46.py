@@ -15,9 +15,6 @@ class Solution:
             nums.append(n)
         return res
 
-# Time Complexity:
-# Space Complexity:
-
 # Runtime1: 39ms, beats 66.97%
 # Memory1: 16.80MB, beats 34.53%
 

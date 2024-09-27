@@ -11,9 +11,6 @@ class Solution:
                 curr = stack.pop()
         return res
 
-# Time Complexity:
-# Space Complexity:
-
 # Runtime1: 32ms, beats 75.35%
 # Memory1: 16.48MB, beats 71.07%
 

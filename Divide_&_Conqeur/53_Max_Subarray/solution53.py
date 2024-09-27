@@ -9,9 +9,6 @@ class Solution:
                 total = 0
         return res
 
-# Time Complexity:
-# Space Complexity:
-
 # Runtime1: 513ms, beats 77.07%
 # Memory1: 30.79MB, beats 97.77%
 

@@ -15,9 +15,6 @@ class Solution:
         
         return max_area
 
-# Time Complexity:
-# Space Complexity:
-
 # Runtime1: 526ms, beats 51.90%
 # Memory1: 29.87MB, beats 25.13%
 

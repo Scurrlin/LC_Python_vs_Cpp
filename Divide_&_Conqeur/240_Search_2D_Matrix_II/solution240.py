@@ -23,9 +23,6 @@ class Solution:
     def searchMatrix(self, mat: List[List[int]], tar: int) -> bool:
         return self.divide_and_conquer(mat, 0, 0, len(mat)-1, len(mat[0])-1, tar)
 
-# Time Complexity:
-# Space Complexity:
-
 # Runtime1: 140ms, beats 54.08%
 # Memory1: 23MB, beats 45.08%
 

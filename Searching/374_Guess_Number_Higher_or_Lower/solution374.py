@@ -6,9 +6,6 @@ class Solution:
             else: low = mid + 1
         return mid
 
-# Time Complexity:
-# Space Complexity:
-
 # Runtime1: 37ms, beats 38.08%
 # Memory1: 16.45MB, beats 68.11%
 

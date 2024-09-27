@@ -6,9 +6,6 @@ class Solution:
             l += 1
             r -= 1
 
-# Time Complexity:
-# Space Complexity:
-
 # Runtime1: 172ms, beats 39.07%
 # Memory1: 20.89MB, beats 34.11%
 

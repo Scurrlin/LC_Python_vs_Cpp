@@ -16,9 +16,6 @@ class Solution:
         res.append(newInterval)
         return res
 
-# Time Complexity: O(N)
-# Space Complexity: O(N)
-
 # Runtime1: 70ms, beats 83.71%
 # Memory1: 19.96MB, beats 19.68%
 

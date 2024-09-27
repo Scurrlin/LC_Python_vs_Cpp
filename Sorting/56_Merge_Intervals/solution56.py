@@ -12,9 +12,6 @@ class Solution:
                 output.append([start, end])
         return output
 
-# Time Complexity: O(NlogN)
-# Space Complexity: 0(N)
-
 # Runtime1: 118ms, beats 82.45%
 # Memory1: 21.14MB, beats 27.84%
 

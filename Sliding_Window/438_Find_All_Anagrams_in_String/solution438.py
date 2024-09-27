@@ -23,9 +23,6 @@ class Solution:
         
         return res
 
-# Time Complexity:
-# Space Complexity:
-
 # Runtime1: 89ms, beats 62.35%
 # Memory1: 17.57MB, beats 96.49%
 

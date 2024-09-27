@@ -9,9 +9,6 @@ class Solution:
         
         return dp[-1]
 
-# Time Complexity:
-# Space Complexity:
-
 # Runtime1: 33ms, beats 66.88%
 # Memory1: 16.68MB, beats 15.96%
 

@@ -31,16 +31,16 @@ private:
     }
 };
 
-// Time Complexity:
-// Space Complexity:
+// Time Complexity: O(N^target)
+// Space Complexity: O(target)
 
-// Runtime1: 7ms, beats 47.03%
-// Memory1: 12.45MB, beats 92.78%
+// Runtime1: 0ms, beats 100%
+// Memory1: 12.62MB, beats 57.93%
 
 // Runtime2: 3ms, beats 79.53%
 // Memory2: 12.54MB, beats 81.60%
 
-// Runtime1: 7ms, beats 47.03%
-// Memory1: 12.44MB, beats 92.78%
+// Runtime1: 0ms, beats 100%
+// Memory1: 12.60MB, beats 81.60%
 
 

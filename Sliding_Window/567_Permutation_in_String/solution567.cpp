@@ -50,9 +50,6 @@ public:
     }
 };
 
-// Time Complexity:
-// Space Complexity:
-
 // Runtime1: 4ms, beats 81.13%
 // Memory1: 8.77MB, beats 80.92%
 

@@ -12,10 +12,7 @@ class Solution:
             if k == 0:
                 return curr.val
             curr = curr.right
-
-# Time Complexity:
-# Space Complexity:
-
+            
 # Runtime1: 40ms, beats 83.55%
 # Memory1: 19.40MB, beats 97.80%
 

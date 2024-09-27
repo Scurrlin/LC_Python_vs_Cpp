@@ -19,9 +19,6 @@ class Solution:
                     L = mid + 1
         return -1
 
-# Time Complexity: O(logN)
-# Space Complexity: O(1)
-
 # Runtime1: 43ms, beats 57.45%
 # Memory1: 16.83MB, beats 72.42%
 

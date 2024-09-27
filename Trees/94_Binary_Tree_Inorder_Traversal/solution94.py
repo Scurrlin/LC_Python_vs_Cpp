@@ -11,9 +11,6 @@ class Solution:
         inorder(root)
         return output
 
-# Time Complexity:
-# Space Complexity:
-
 # Runtime1: 32ms, beats 75.77%
 # Memory1: 16.59MB, beats 21.32%
 

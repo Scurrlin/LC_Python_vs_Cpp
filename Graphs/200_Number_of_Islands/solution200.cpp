@@ -36,9 +36,6 @@ private:
     }
 };
 
-// Time Complexity:
-// Space Complexity:
-
 // Runtime1: 19ms, beats 97.62%
 // Memory1: 15.83MB, beats 98.93%
 

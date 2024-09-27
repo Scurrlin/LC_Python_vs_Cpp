@@ -15,9 +15,6 @@ class Solution:
         dfs(0)
         return res
 
-# Time Complexity:
-# Space Complexity:
-
 # Runtime1: 32ms, beats 84.44%
 # Memory1: 16.84MB, beats 25.77%
 

@@ -6,9 +6,6 @@ class Solution:
             queue.insert(person[1], person)
         return queue
 
-# Time Complexity:
-# Space Complexity:
-
 # Runtime1: 76ms, beats 93.18%
 # Memory1: 17.19MB, beats 52.56%
 

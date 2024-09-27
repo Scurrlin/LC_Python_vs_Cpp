@@ -12,9 +12,6 @@ class Solution:
                 return m
         return -1
 
-# Time Complexity:
-# Space Complexity:
-
 # Runtime1: 189ms, beats 67.96%
 # Memory1: 18.10MB, beats 71.59%
 

@@ -18,9 +18,6 @@ class Solution:
         backtrack(target, 0, [])    
         return result
 
-# Time Complexity:
-# Space Complexity:
-
 # Runtime1: 39ms, beats 97.59%
 # Memory1: 16.76MB, beats 11.69%
 

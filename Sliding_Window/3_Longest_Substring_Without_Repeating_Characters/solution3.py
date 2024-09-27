@@ -12,9 +12,6 @@ class Solution:
             res = max(res, r - l + 1)
         return res
 
-# Time Complexity:
-# Space Complexity:
-
 # Runtime1: 53ms, beats 68.95%
 # Memory1: 16.54MB, beats 82.45%
 

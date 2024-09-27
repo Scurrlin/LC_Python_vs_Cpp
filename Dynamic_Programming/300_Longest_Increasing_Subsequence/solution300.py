@@ -8,9 +8,6 @@ class Solution:
                     LIS[i] = max(LIS[i], 1 + LIS[j])
         return max(LIS)
 
-# Time Complexity:
-# Space Complexity:
-
 # Runtime1: 1869ms, beats 25.43%
 # Memory1: 16.81MB, beats 70.38%
 

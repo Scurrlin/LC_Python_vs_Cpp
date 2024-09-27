@@ -7,9 +7,6 @@ class Solution:
                 goal = i
         return goal == 0
 
-# Time Complexity:
-# Space Complexity:
-
 # Runtime1: 352ms, beats 65.81%
 # Memory1: 17.80MB, beats 68.74%
 
