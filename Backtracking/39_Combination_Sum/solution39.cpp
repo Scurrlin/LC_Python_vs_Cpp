@@ -31,9 +31,6 @@ private:
     }
 };
 
-// Time Complexity: O(N^target)
-// Space Complexity: O(target)
-
 // Runtime1: 0ms, beats 100%
 // Memory1: 12.62MB, beats 57.93%
 
