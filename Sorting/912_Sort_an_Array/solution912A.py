@@ -39,3 +39,5 @@ class Solution:
 
 # Runtime3: 1175ms, beats 34.87%
 # Memory3: 36.44MB, beats 7.33%
+
+# Runtime reduced by a factor of 10 to not skew data visualization

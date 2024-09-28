@@ -25,3 +25,5 @@ public:
 
 // Runtime3: 38ms, beats 83.90%
 // Memory3: 51.11MB, beats 42.11%
+
+// Runtime reduced by a factor of 10 to not skew data visualization
