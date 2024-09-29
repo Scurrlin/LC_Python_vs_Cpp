@@ -57,3 +57,4 @@ private:
 // Memory3: 178.50MB, beats 25.85%
 
 // Runtime reduced by a factor of 10 to not skew data visualization
+// Memory reduced by a factor of 10 to not skew data visualization
