@@ -37,7 +37,7 @@ private:
 // Runtime2: 3ms, beats 79.53%
 // Memory2: 12.54MB, beats 81.60%
 
-// Runtime1: 0ms, beats 100%
-// Memory1: 12.60MB, beats 81.60%
+// Runtime3: 0ms, beats 100%
+// Memory3: 12.60MB, beats 81.60%
 
 
