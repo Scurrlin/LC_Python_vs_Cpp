@@ -1,4 +1,4 @@
-# Analyzing Python vs. C++ Performance in LeetCode Problems
+# Analyzing Python and C++ Performance in LeetCode Problems
 
 ## Premise
 
