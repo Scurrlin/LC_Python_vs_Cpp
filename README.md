@@ -22,7 +22,7 @@ Before getting to the results, I want to acknowledge that LeetCode is not the id
 
 ## Results
 
-In a surprise to absolutely no one, C++ outperformed Python in terms of speed in every algorithm. On average, C++ was 5.253 times faster than Python. You can view how much faster C++ was than Python in each algorithm below:
+Shocking absolutely no one, C++ outperformed Python in terms of speed in every algorithm. On average, C++ was 5.253 times faster than Python. You can view how much faster C++ was than Python in each algorithm below:
 
 <details>
 <summary>Runtime Comparison</summary>
@@ -47,7 +47,7 @@ In a surprise to absolutely no one, C++ outperformed Python in terms of speed in
 
 </details>
 
-That said, the memory usage results were quite surprising. On average, Python used 4.509 fewer MB than C++. In fact, Python used significantly less memory (>10MB) than C++ in 4 out of the 10 algorithmic comparisons. This finding challenges the common perception that Python is always the more resource-intensive option.
+On the other hand, the memory usage results were actually quite surprising. On average, Python used 4.509 fewer MB than C++. In fact, Python used significantly less memory (>10MB) than C++ in 4 out of the 10 algorithmic comparisons. This finding challenges the common perception that Python is always the more resource-intensive option.
 
 <details>
 <summary>Memory Comparison</summary>
