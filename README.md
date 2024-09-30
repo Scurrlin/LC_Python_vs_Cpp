@@ -47,7 +47,7 @@ In a surprise to absolutely no one, C++ outperformed Python in terms of speed in
 
 </details>
 
-That said, the memory usage results were quite surprising. Contrary to my initial expectations, Python used significantly less memory than C++ in 4 out of the 10 algorithmic comparisons. On average, Python used 4.509 fewer MB than C++. This finding challenges the common perception that Python is always the more resource-intensive option.
+That said, the memory usage results were quite surprising. On average, Python used 4.509 fewer MB than C++. In fact, Python used significantly less memory (>10MB) than C++ in 4 out of the 10 algorithmic comparisons. This finding challenges the common perception that Python is always the more resource-intensive option.
 
 <details>
 <summary>Memory Comparison</summary>
