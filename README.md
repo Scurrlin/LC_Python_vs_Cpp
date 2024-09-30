@@ -38,9 +38,11 @@ In a surprise to absolutely no one, C++ outperformed Python in terms of speed in
 * Trees - 8.999x faster
 * Two Pointers - 9.307x faster
 <br>
+
 * Python average runtime – 72.082ms
 * C++ average runtime – 13.721ms
 <br>
+
 * Overall average – C++ was 5.253x faster
 
 </details>
@@ -61,9 +63,11 @@ That said, the memory usage results were quite surprising. Contrary to my initia
 * Trees – C++ used 3.183 fewer MB
 * Two Pointers – Python used 14.934 fewer MB
 <br>
+
 * Python average memory usage – 20.015MB
 * C++ average memory usage – 24.524MB
 <br>
+
 * Overall average – Python used 4.509 fewer MB
 
 </details>
