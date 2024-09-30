@@ -1,4 +1,4 @@
-# Analyzing Python vs. C++ Performance on LeetCode Problems
+# Analyzing Python vs. C++ Performance in LeetCode Problems
 
 ## Premise
 
@@ -6,7 +6,7 @@ It is well documented that C++ is faster than Python when it comes to raw proces
 
 Do note that since this is a didactic project with a focus on C++, the solutions in C++ contain additional lines of code not found in the Python solutions. These additional lines of code were not part of the submitted solutions.
 
-If you would like to skip to the comparative charts, click here.
+If you would like to skip to the comparative charts, [click here](#charts).
 
 ## Method
 
@@ -71,6 +71,8 @@ That said, the memory usage results were quite surprising. Contrary to my initia
 * Overall average – Python used 4.509 fewer MB
 
 </details>
+
+<a id="charts"></a>
 
 ## Average Runtime (ms) by LeetCode Problem #
 ![Average Runtime by Problem](avg_runtime_by_lc_problem.png)
