@@ -27,21 +27,21 @@ In a surprise to absolutely no one, C++ outperformed Python in terms of speed in
 <details>
 <summary>Runtime Comparison</summary>
 
-Backtracking - 36x faster
-Divide & Conquer - 2.221x faster
-Dynamic Programming - 28.781x faster
-Graphs - 18.423x faster
-Greedy - 3.837x faster
-Searching - 11.804x faster
-Sliding Window - 3.068x faster
-Sorting - 5.092x faster
-Trees - 8.999x faster
-Two Pointers - 9.307x faster
+* Backtracking - 36x faster
+* Divide & Conquer - 2.221x faster
+* Dynamic Programming - 28.781x faster
+* Graphs - 18.423x faster
+* Greedy - 3.837x faster
+* Searching - 11.804x faster
+* Sliding Window - 3.068x faster
+* Sorting - 5.092x faster
+* Trees - 8.999x faster
+* Two Pointers - 9.307x faster
 
-Python average runtime – 72.082ms
-C++ average runtime – 13.721ms
+* Python average runtime – 72.082ms
+* C++ average runtime – 13.721ms
 
-Overall average – C++ was 5.253x faster
+* Overall average – C++ was 5.253x faster
 
 </details>
 
@@ -50,21 +50,21 @@ That said, the memory usage results were quite surprising. Contrary to my initia
 <details>
 <summary>Memory Comparison</summary>
 
-Backtracking – C++ used 5.716 fewer MB
-Divide & Conquer – Python used 14.417 fewer MB
-Dynamic Programming – C++ used 6.579 fewer MB
-Graphs – C++ used 1.161 fewer MB
-Greedy – Python used 20.859 fewer MB
-Searching – Python used 0.112 fewer MB
-Sliding Window – C++ used 4.131 fewer MB
-Sorting – Python used 15.538 fewer MB
-Trees – C++ used 3.183 fewer MB
-Two Pointers – Python used 14.934 fewer MB
+* Backtracking – C++ used 5.716 fewer MB
+* Divide & Conquer – Python used 14.417 fewer MB
+* Dynamic Programming – C++ used 6.579 fewer MB
+* Graphs – C++ used 1.161 fewer MB
+* Greedy – Python used 20.859 fewer MB
+* Searching – Python used 0.112 fewer MB
+* Sliding Window – C++ used 4.131 fewer MB
+* Sorting – Python used 15.538 fewer MB
+* Trees – C++ used 3.183 fewer MB
+* Two Pointers – Python used 14.934 fewer MB
 
-Python average memory usage – 20.015MB
-C++ average memory usage – 24.524MB
+* Python average memory usage – 20.015MB
+* C++ average memory usage – 24.524MB
 
-Overall average – Python used 4.509 fewer MB
+* Overall average – Python used 4.509 fewer MB
 
 </details>
 
