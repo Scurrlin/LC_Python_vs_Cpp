@@ -6,7 +6,7 @@ class Solution:
         if rows == 0:
             return -1
         cols = len(grid[0])
-        fresh_cnt = 0
+        fresh_count = 0
         rotten = deque()
         
         for r in range(rows):
@@ -14,10 +14,10 @@ class Solution:
                 if grid[r][c] == 2:
                     rotten.append((r, c))
                 elif grid[r][c] == 1:
-                    fresh_cnt += 1
+                    fresh_count += 1
         
         minutes_passed = 0
-        while rotten and fresh_cnt > 0:
+        while rotten and fresh_count > 0:
             minutes_passed += 1
             for _ in range(len(rotten)):
                 x, y = rotten.popleft()
@@ -27,11 +27,11 @@ class Solution:
                         continue
                     if grid[xx][yy] == 0 or grid[xx][yy] == 2:
                         continue                        
-                    fresh_cnt -= 1
+                    fresh_count -= 1
                     grid[xx][yy] = 2
                     rotten.append((xx, yy))
 
-        return minutes_passed if fresh_cnt == 0 else -1
+        return minutes_passed if fresh_count == 0 else -1
 
 # Runtime1: 48ms, beats 69.18%
 # Memory1: 16.58MB, beats 60.88%

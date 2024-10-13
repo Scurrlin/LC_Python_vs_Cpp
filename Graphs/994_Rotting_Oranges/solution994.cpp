@@ -10,7 +10,7 @@ public:
         if (rows == 0) return -1;
         
         int cols = grid[0].size();
-        int fresh_cnt = 0;
+        int fresh_count = 0;
         queue<pair<int, int>> rotten;
         
         for (int r = 0; r < rows; ++r) {
@@ -18,7 +18,7 @@ public:
                 if (grid[r][c] == 2) {
                     rotten.push({r, c});
                 } else if (grid[r][c] == 1) {
-                    fresh_cnt++;
+                    fresh_count++;
                 }
             }
         }
@@ -26,7 +26,7 @@ public:
         int minutes_passed = 0;
         vector<pair<int, int>> directions = {{1, 0}, {-1, 0}, {0, 1}, {0, -1}};
         
-        while (!rotten.empty() && fresh_cnt > 0) {
+        while (!rotten.empty() && fresh_count > 0) {
             minutes_passed++;
             int rotten_count = rotten.size();
             
@@ -42,13 +42,13 @@ public:
                     if (grid[xx][yy] == 0 || grid[xx][yy] == 2) continue;
                     
                     grid[xx][yy] = 2;
-                    fresh_cnt--;
+                    fresh_count--;
                     rotten.push({xx, yy});
                 }
             }
         }
         
-        return fresh_cnt == 0 ? minutes_passed : -1;
+        return fresh_count == 0 ? minutes_passed : -1;
     }
 };
 
