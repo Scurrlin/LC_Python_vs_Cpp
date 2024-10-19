@@ -20,10 +20,10 @@ class Solution:
         return -1
 
 # Runtime1: 43ms, beats 57.45%
-# Memory1: 16.83MB, beats 72.42%
+# Memory1: 16.83MB, beats 73.04%
 
 # Runtime2: 37ms, beats 89.99%
-# Memory2: 16.88MB, beats 73.04%
+# Memory2: 16.88MB, beats 72.42%
 
 # Runtime3: 42ms, beats 67.07%
 # Memory3: 16.95MB, beats 33.05%
