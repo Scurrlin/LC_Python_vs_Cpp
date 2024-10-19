@@ -27,6 +27,7 @@ Shocking absolutely no one, C++ outperformed Python in terms of speed in every a
 <details>
 <summary>Runtime Comparison</summary>
 <br>
+
 * Backtracking - 36x faster
 * Divide & Conquer - 2.221x faster
 * Dynamic Programming - 28.781x faster
@@ -52,6 +53,7 @@ On the other hand, the memory usage results were actually quite surprising. On a
 <details>
 <summary>Memory Comparison</summary>
 <br>
+
 * Backtracking – C++ used 5.716 fewer MB
 * Divide & Conquer – Python used 14.417 fewer MB
 * Dynamic Programming – C++ used 6.579 fewer MB
