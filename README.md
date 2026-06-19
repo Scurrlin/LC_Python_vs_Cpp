@@ -1,5 +1,7 @@
 # Analyzing Python and C++ Performance in LeetCode Problems
 
+![Python vs C++](Python_vs_C++.png)
+
 ## Premise
 
 It is well documented that C++ is faster than Python when it comes to raw processing speed… but just how much faster is it? Does it also use less memory than Python? As someone who hasn’t coded in C++ before, I wanted to find the answers to these questions while simultaneously familiarizing myself with the syntax of C++. This repository details my expedition through various algorithmic challenges with both languages, as well as the surprising insights I found at journey’s end.
