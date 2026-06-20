@@ -24,6 +24,8 @@ Before getting to the results, I want to acknowledge that LeetCode is not the id
 
 ## Results
 
+![Beers](Beers.png)
+
 Shocking absolutely no one, C++ outperformed Python in terms of speed in every algorithm. On average, C++ was 5.253 times faster than Python. You can view how much faster C++ was than Python in each algorithm below:
 
 <details>
