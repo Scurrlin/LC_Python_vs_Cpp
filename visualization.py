@@ -32,7 +32,7 @@ def create_bar_graph(x, y1, y2, labels, title, y_label, filename, note, y_ticks,
     plt.yticks(y_ticks)
     plt.legend(loc='upper right')
     
-    plt.grid(axis='both', linestyle='--', linewidth=0.5, color='gray', alpha=0.7)
+    plt.grid(axis='both', linestyle='--', linewidth=0.5, color='gray', alpha=1.0)
 
     plt.tight_layout(rect=[0, 0.05, 1, 1])
     if include_note:
