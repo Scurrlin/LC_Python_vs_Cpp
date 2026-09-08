@@ -1,8 +1,0 @@
-{
-    "files.associations": {
-        "*.ejs": "html",
-        "vector": "cpp",
-        "algorithm": "cpp",
-        "unordered_set": "cpp"
-    }
-}

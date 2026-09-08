@@ -17,29 +17,59 @@ memory_data = pd.read_excel(
 )
 
 def create_bar_graph(x, y1, y2, labels, title, y_label, filename, note, y_ticks, include_note):
-    plt.figure(figsize=(14, 8))
+    fig = plt.figure(figsize=(14, 8), dpi=100, facecolor='white')
+    ax = fig.add_subplot(111)
+    ax.set_facecolor('white')
     
     bar_width = 0.35
     index = range(len(x))
-    
-    plt.bar(index, y1, bar_width, label='Python', color='#3572A5')
-    plt.bar([i + bar_width for i in index], y2, bar_width, label='C++', color='#F34B7D')
+    x_ticks = [i + bar_width / 2 for i in index]
 
-    plt.xlabel(labels['x_label'])
-    plt.ylabel(y_label)
-    plt.title(title)
-    plt.xticks([i + bar_width / 2 for i in index], x, rotation=45, ha="right")
-    plt.yticks(y_ticks)
-    plt.legend(loc='upper right')
-    
-    plt.grid(axis='both', linestyle='--', linewidth=0.5, color='gray', alpha=1.0)
+    full_y_ticks = list(y_ticks)
+    if len(full_y_ticks) < 2:
+        raise ValueError('y_ticks must contain at least two values')
 
-    plt.tight_layout(rect=[0, 0.05, 1, 1])
+    y_tick_interval = full_y_ticks[-1] - full_y_ticks[-2]
+    if y_tick_interval <= 0:
+        raise ValueError('y_ticks must be strictly increasing')
+
+    max_bar_value = max(max(y1), max(y2))
+    while full_y_ticks[-1] <= max_bar_value:
+        full_y_ticks.append(full_y_ticks[-1] + y_tick_interval)
+    
+    ax.bar(index, y1, bar_width, label='Python', color='#3572A5', alpha=1.0, zorder=2)
+    ax.bar([i + bar_width for i in index], y2, bar_width, label='C++', color='#F34B7D', alpha=1.0, zorder=2)
+
+    ax.set_xlabel(labels['x_label'], color='black')
+    ax.set_ylabel(y_label, color='black')
+    ax.set_title(title, color='black')
+    ax.set_xticks(x_ticks, x, rotation=45, ha="right")
+    ax.set_xlim(x_ticks[0] - 0.5, x_ticks[-1] + 0.5)
+    ax.set_yticks(full_y_ticks)
+    ax.set_ylim(full_y_ticks[0], full_y_ticks[-1])
+    ax.tick_params(colors='black')
+    ax.legend(loc='upper right', facecolor='white', edgecolor='black', labelcolor='black')
+    
+    # Keep every grid line at one opacity and behind the opaque bars.
+    ax.set_axisbelow(True)
+    ax.grid(
+        axis='both',
+        color='gray',
+        linestyle='--',
+        linewidth=0.5,
+        alpha=1.0
+    )
+
+    for spine in ax.spines.values():
+        spine.set_color('black')
+        spine.set_zorder(4)
+
+    fig.tight_layout(rect=[0, 0.05, 1, 1])
     if include_note:
-        plt.figtext(0.5, 0.01, note, wrap=True, horizontalalignment='center', fontsize=8)
+        fig.text(0.5, 0.01, note, wrap=True, horizontalalignment='center', fontsize=8, color='black')
     
-    plt.savefig(filename)
-    plt.close()
+    fig.savefig(filename, facecolor=fig.get_facecolor(), dpi=100, transparent=False)
+    plt.close(fig)
 
 problems = [39, 46, 78, '53*', 169, 240, 70, 198, '300*', '200*', 733, 994, '55*', 406, '452*', 33, 374, 704, 3, 438, 567, 56, 57, '912A*', '912B*', 94, 144, 230, '11*', '15*', 344]
 python_runtime_values = [runtime_data.iat[i, 5] for i in range(3, 64, 2)]
